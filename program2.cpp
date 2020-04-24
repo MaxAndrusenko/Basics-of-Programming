@@ -1,7 +1,7 @@
 #include <iostream>
 #include <ctime>
 using namespace std;
-void PrintMat(int mat, int n, int m)
+void PrintMat(int **mat, int n, int m)
 {
   for (int i = 0; i < n; i++)
   {
